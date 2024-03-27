@@ -1,0 +1,36 @@
+.addformula {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 40px 0;
+  gap: 10px;
+  font-size: 18px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: peachpuff;
+  border-radius: 20px;
+}
+.name {
+  margin-right: 83px;
+}
+.num {
+  margin-right: 10px;
+}
+.addbtn {
+  font-size: 14px;
+  border: none;
+  padding: 3px;
+  width: 200px;
+  background-color: darksalmon;
+  border-radius: 10px;
+}
+.addbtn:hover,
+.addbtn:active {
+  font-weight: bold;
+  background-color: azure;
+}
+.input {
+  height: 15px;
+  padding: 5px;
+}
